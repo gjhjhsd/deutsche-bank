@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Deutsche Bank</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/beige.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -16,8 +16,87 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section><img src="img/logo.jpg" /></section>
+				<section>
+					<h2>Outline</h2>
+					<ul>
+						<li class="fragment">Overview</li>
+						<li class="fragment">History</li>
+						<li class="fragment">Investments</li>
+						<li class="fragment">Philosophy</li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h2>Overview</h2>
+						<img src="img/0.png" class="fragment" />
+					</section>
+					<section>
+						<img src="img/1.png" />
+					</section>
+					<section>
+						<img src="img/2.png" />
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>History</h2>
+					</section>
+					<section>
+						<img src="img/3.jpg" style="height: 70vh;"/>
+					</section>
+					<section>
+						<img src="img/4.jpg" />
+					</section>
+					<section>
+						<ul>
+							<li>founded 1870</li>
+							<li class="fragment">1871: new branch in Bremen <br>German Bank of London</li>
+							<li class="fragment">"Panic of 1873": acquisation of other banks</li>
+							<li class="fragment">1889: participation in the founding of Deutsch-Asiatische Bank</li>
+							<li class="fragment">1945: Closure of all branches in the Soviet-occupied zone</li>
+							<li class="fragment">2001: listed on New York Stock Exchange</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Investments</h2>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Philosophy</h2>
+						<ul>
+							<li class="fragment">goal: transformation</li>
+							<li class="fragment">less complexity</li>
+						</ul>
+					</section>
+					<section>
+						<img src="img/5.jpg" style="height: 70vh;"/>
+					</section>
+					<section>
+						<img src="img/7.png" style="max-height: 70vh;"/>
+					</section>
+				</section>
+				<section>
+					<img src="img/6.jpg" />
+				</section>
+				<section>
+					<h2>Sources</h2>
+					<ul style="font-size: 1.5rem;">
+						<li>https://www.deutsche-bank.de/ub/unsere-loesungen/internationales-geschaeft/internationale-maerkte-erschliessen.html</li>
+						<li>https://www.db.com/who-we-are/strategy/</li>
+						<li>https://www.faz.net/aktuell/wirtschaft/schneller-schlau/grafik-des-tages-100-000-euro-als-einstiegsgehalt-gefaellig-14947934/wem-gehoert-die-deutsche-bank-14886916.html#fotobox_1_4947934_0</li>
+						<li>https://ycharts.com/companies/DB/net_income</li>
+						<li>https://en.wikipedia.org/wiki/File:Deutsche_Bank_1881.jpg</li>
+						<li>https://en.wikipedia.org/wiki/Deutsche_Bank</li>
+						<li>https://www.db.com/</li>
+						<li>https://1000logos.net/wp-content/uploads/2017/09/Color-Deutsche-Bank-Logo.jpg</li>
+						<li>https://de.academic.ru/pictures/dewiki/65/Adelbert_Delbr%C3%BCck_Gem%C3%A4lde.jpg</li>
+						<li>https://www.db.com/cr/en/docs/Deutsche_Bank_HR_Report_2019_eng.pdf</li>
+					</ul>
+				</section>
 			</div>
 		</div>
 
@@ -31,6 +110,8 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				transition: 'convex',
+				transitionSpeed: 'slow',
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
